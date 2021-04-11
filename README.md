@@ -1,1 +1,4 @@
 # Cryptocurrencies
+
+## Overview
+This project focused on unsupervised learning and used jupyter notebooks, hvplot, Pandas and Python to process and cluster cryptocurrency data and reduce the dimensions and principal components using PCA. The intent of this analysis was to see what cryptocurrencies are on the trading market and determine how to group them to create a classification system for investments. The cryptocurrency data [crypto_data.csv](https://github.com/borkard/Cryptocurrencies/blob/main/crypto_data.csv) was pulled from CryptoCompare and was processed to fit the machine learning models, grouped into clusters of cryptocurrencies by an algorithm, and visualized with hvplot. The analysis was conducted in four main steps of pre-processing the data, reducing the dimensions with Principal Component Analysis (PCA), clustering the cryptocurrencies using K-means, and visualizing the results with hvplot.
